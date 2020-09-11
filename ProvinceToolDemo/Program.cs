@@ -13,7 +13,7 @@ namespace ProvinceToolDemo
         {
             while (true)
             {
-                Console.WriteLine("Enter a province code to get the value of the province.");
+                Console.Write("Enter a province code to get the value of the province >");
 
                 string provinceCode = Console.ReadLine();
 
@@ -27,7 +27,7 @@ namespace ProvinceToolDemo
                     Console.WriteLine("Sorry, the province entered was not recognized.");
                 }
 
-                Console.WriteLine("***");
+                Console.WriteLine("***************************************");
             }
         }
     }
