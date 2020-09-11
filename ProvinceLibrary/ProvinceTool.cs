@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProvinceToolDemo
+namespace ProvinceLibrary
 {
-    class ProvinceTool
+    public class ProvinceTool
     {
         static Dictionary<string, string> provinces = new Dictionary<string, string>();
 
@@ -36,6 +36,5 @@ namespace ProvinceToolDemo
 
             return provinces.ContainsKey(provinceCode.Trim().ToUpper());
         }
-
     }
 }
