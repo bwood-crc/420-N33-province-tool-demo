@@ -15,6 +15,7 @@ namespace ProvinceLibrary
             provinces.Add("QC", "Québec");
             provinces.Add("ON", "Ontario");
             provinces.Add("BC", "British Columbia");
+            provinces.Add("AB", "Alberta");
         }
 
         public static string getProvinceName(string provinceCode)
